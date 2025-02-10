@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Restaurant Menu</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 20px;
+            background-color: #f8f8f8;
+            text-align: center;
+        }
+        .menu-container {
+            max-width: 800px;
+            margin: auto;
+            background: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        h1 {
+            color: #333;
+        }
+        h2 {
+            color: #007bff;
+            border-bottom: 2px solid #ddd;
+            padding-bottom: 5px;
+            margin-top: 20px;
+        }
+        .menu-item {
+            display: flex;
+            justify-content: space-between;
+            border-bottom: 1px solid #ddd;
+            padding: 10px 0;
+        }
+        .menu-item:last-child {
+            border-bottom: none;
+        }
+        .name {
+            font-weight: bold;
+            text-align: left;
+        }
+        .price {
+            color: #d9534f;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+
+<div class="menu-container">
+    <h1>Restaurant Menu</h1>
+
+    <!-- Soups -->
+    <h2>Soups / Супи</h2>
+    <div class="menu-item"><span class="name">Ukrainian Borscht / Борщ український</span><span class="price">150₴ / $4</span></div>
+    <div class="menu-item"><span class="name">Kharcho Soup / Суп харчо</span><span class="price">140₴ / $3.8</span></div>
+    <div class="menu-item"><span class="name">Chicken Broth / Курячий бульйон</span><span class="price">120₴ / $3.2</span></div>
+    <div class="menu-item"><span class="name">Mushroom Cream Soup / Грибний крем-суп</span><span class="price">160₴ / $4.5</span></div>
+    <div class="menu-item"><span class="name">Fish Soup / Рибна юшка</span><span class="price">170₴ / $4.8</span></div>
+
+    <!-- Appetizers -->
+    <h2>Appetizers / Закуски</h2>
+    <div class="menu-item"><span class="name">Herring with Potatoes / Оселедець з картоплею</span><span class="price">110₴ / $3</span></div>
+    <div class="menu-item"><span class="name">Lard with Garlic / Сало з часником</span><span class="price">130₴ / $3.5</span></div>
+    <div class="menu-item"><span class="name">Cheese Plate / Сирна тарілка</span><span class="price">200₴ / $5.5</span></div>
+    <div class="menu-item"><span class="name">Caviar Sandwiches / Канапки з червоною ікрою</span><span class="price">250₴ / $7</span></div>
+
+    <!-- Salads -->
+    <h2>Salads / Салати</h2>
+    <div class="menu-item"><span class="name">Olivier Salad / Олів'є</span><span class="price">130₴ / $3.5</span></div>
+    <div class="menu-item"><span class="name">Greek Salad / Грецький салат</span><span class="price">140₴ / $3.8</span></div>
+    <div class="menu-item"><span class="name">Caesar Salad with Chicken / Цезар з куркою</span><span class="price">170₴ / $4.8</span></div>
+    <div class="menu-item"><span class="name">Vinaigrette Salad / Вінегрет</span><span class="price">120₴ / $3.2</span></div>
+
+    <!-- Hot Dishes -->
+    <h2>Hot Dishes / Гарячі страви</h2>
+    <div class="menu-item"><span class="name">Chicken Kyiv / Котлета по-київськи</span><span class="price">200₴ / $5.5</span></div>
+    <div class="menu-item"><span class="name">Pork Shashlik / Шашлик зі свинини</span><span class="price">250₴ / $7</span></div>
+    <div class="menu-item"><span class="name">Veal in Cream Sauce / Телятина в вершковому соусі</span><span class="price">280₴ / $7.8</span></div>
+    <div class="menu-item"><span class="name">Grilled Fish / Риба на грилі</span><span class="price">260₴ / $7.2</span></div>
+
+    <!-- Side Dishes -->
+    <h2>Side Dishes / Гарніри</h2>
+    <div class="menu-item"><span class="name">French Fries / Картопля фрі</span><span class="price">90₴ / $2.5</span></div>
+    <div class="menu-item"><span class="name">Buckwheat with Butter / Гречка з маслом</span><span class="price">80₴ / $2.2</span></div>
+    <div class="menu-item"><span class="name">Rice with Vegetables / Рис з овочами</span><span class="price">100₴ / $2.8</span></div>
+
+    <!-- Desserts -->
+    <h2>Desserts / Десерти</h2>
+    <div class="menu-item"><span class="name">Napoleon Cake / Наполеон</span><span class="price">140₴ / $3.8</span></div>
+    <div class="menu-item"><span class="name">Honey Cake / Медовик</span><span class="price">130₴ / $3.5</span></div>
+    <div class="menu-item"><span class="name">Dumplings with Cherries / Вареники з вишнями</span><span class="price">150₴ / $4</span></div>
+    <div class="menu-item"><span class="name">Cottage Cheese Pancakes / Сирники</span><span class="price">160₴ / $4.5</span></div>
+
+    <!-- Drinks -->
+    <h2>Drinks / Напої</h2>
+    <div class="menu-item"><span class="name">Black Tea / Чай чорний</span><span class="price">50₴ / $1.5</span></div>
+    <div class="menu-item"><span class="name">Espresso / Кава еспресо</span><span class="price">60₴ / $1.8</span></div>
+    <div class="menu-item"><span class="name">Lemonade / Лимонад</span><span class="price">80₴ / $2.2</span></div>
+    <div class="menu-item"><span class="name">Kvass / Квас</span><span class="price">70₴ / $2</span></div>
+
+</div>
+
+</body>
+</html>
